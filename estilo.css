@@ -1,0 +1,79 @@
+*{ margin: 0;
+    padding: 0;
+box-sizing: border-box;}
+
+header h1, section h2,section h3, section h4, form button {font-family: 'Playfair Display', serif;}
+header h1, section h2{font-weight: normal; font-size: 40px;}
+
+
+
+body, input, textarea, footer { font-family: 'Ubuntu', sans-serif;}
+
+
+
+header {  padding: 30px 0;
+    background-color: #db0948;
+    color: #e9e0e0;
+    }
+
+header nav li {font-family: 'Playfair Display', serif; margin-left: 20px; font-size: 24px; display: inline;}
+header nav li a {color: #ecf0f1; text-decoration: none;}
+
+.container {max-width: 1288px;
+width: 100%;
+margin: 0 auto}
+
+header .container,
+section .container { display: flex; align-items: center; justify-content: space-between;}
+
+.marcas img {height: 100px; display: inline; justify-content: space-between; margin-bottom: 18px; margin-left: auto;}
+.marcas li { display: inline;}
+
+section .container { align-items: flex-start;}
+section {padding: 24px 0;}
+
+
+
+section h2 {margin-bottom: 16px;}
+section p { margin-bottom: 16px; font-size: 18px; color:  #0c0a0b}
+.imagem-frente { margin-right: 120px;}
+
+.imagem-frente {
+    width: 50% ;  /* Ajusta a largura da imagem para ocupar 100% do contêiner */
+    } /* Adiciona uma sombra sutil à imagem */
+
+#about .container {
+    display: flex; justify-content: space-between;
+}
+/* forms e contatos */
+
+section h2, section h3, section h4 {color:  #0c0507;}
+
+.social-links img { 
+    height:  80px;}
+    .social-links li { display: inline; margin-right: 10px;}
+    .social-links li a { text-decoration: none;}
+#contact .container { display: block; }
+
+.contact-methods {display: flex; justify-content: space-between;}
+form input, 
+textarea,
+button { display: block; width: 320px;margin-bottom: 8px; padding: 8px;}
+
+form textarea { resize: none; height: 120px}
+
+section h3 {margin-top: 20px ;margin-bottom: 10px;}
+
+#contact h2 { background-color: #420417; color: #ecf0f1; margin-bottom: 20px;} 
+
+form button { background-color: #db0948; color: #ecf0f1; border: none; cursor: pointer;}
+
+input:focus, textarea:focus { outline-color: #db0948;}
+
+footer { background-color: #db0948; color: #ecf0f1; padding: 16px;}
+
+#about h2 { margin-bottom: 30px;}
+.container h2 { margin-bottom: 30px; font-family:'Ubuntu', sans-serif; background-color:#420417;color: #ecf0f1; border: 2px solid #000000 }
+
+section h3 { font-family: 'Ubuntu', sans-serif; background-color: #420417;color: #ffffff;font-size: 25px; border: 2px solid #000000}
+
