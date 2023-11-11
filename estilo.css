@@ -77,3 +77,12 @@ footer { background-color: #db0948; color: #ecf0f1; padding: 16px;}
 
 section h3 { font-family: 'Ubuntu', sans-serif; background-color: #420417;color: #ffffff;font-size: 25px; border: 2px solid #000000}
 
+footer {
+    text-align: center;
+}
+
+h1, h2, h3 {
+    padding-bottom: 10px}
+
+    #about p {
+        margin-bottom: 15%}
